@@ -1,0 +1,228 @@
+:root{
+    --blue:#2196F3
+    --main:#212121
+    --grey:#757575
+}
+
+body{
+    cursor: pointer; 
+ 
+    
+   }
+   a {
+    text-decoration: none;
+    font-style: normal;
+  }
+
+header{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color:var(--main);
+    text-decoration: none;
+    
+}
+
+.logo{
+    text-decoration: none;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+    color: #2196F3;}
+
+.logo-part-2{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+            color: #212121; 
+            text-decoration: none;
+    }
+    .logo-second-part-footer{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+            color: #FFFFFF;; 
+            text-decoration: none;
+    }
+
+.active-button{
+      
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        background-color: #2196F3;
+        color:#FFFFFF;   
+}
+.active{
+      
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+            color: #2196F3;
+         
+    }
+
+   .buttons{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+background-color: none;
+color: #212121;
+
+   }
+.contact{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color:#757575;
+        text-decoration: none;  
+    }
+    
+    section ul.active{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+background-color: none;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+    }
+  
+    .img-second-span{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #757575;
+    }
+
+    .img-first-span{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+color: #212121;
+    }
+a :hover, a :focus {
+  text-decoration-line:#2196F3;
+}
+
+footer{
+    background-color:#2F303A;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+.footer-contact{
+    font-family: 'Roboto';
+    font-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+    color:  rgba(255, 255, 255, 0.6); 
+}
+.main-header{
+    background-color: #2F303A;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.button-header{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+color: #FFFFFF;
+background-color: #2196F3;
+
+}
+thead{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+tbody{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+h2{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.main-first-span-people{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    
+    color: #212121;   
+}
+.main-second-span-people{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    letter-spacing: 0.03em;
+    
+    color: #757575;  
+}
