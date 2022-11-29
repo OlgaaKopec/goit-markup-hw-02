@@ -13,30 +13,21 @@ body {
   font-weight: 400;
   text-decoration: none;
 }
-.no-underline {
+.logo-main-style {
   text-decoration: none;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 .logo {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
   color: var(--main-blue);
-  text-decoration: none;
 }
 .logo-part-2 {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
   color: var(--almost-black);
-  text-decoration: none;
 }
-.logo:hover {
-  color: var(--main-blue);
-}
+
 .nav-links a {
   font-weight: 500;
   font-size: 14px;
@@ -94,7 +85,7 @@ body {
   cursor: pointer;
 }
 
-.articles h2 {
+.headers h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -121,17 +112,10 @@ body {
 }
 
 .logo-second-part-footer {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
   color: var(--logo-white);
 }
 
 .footer-contact {
-  font-size: 14px;
-  line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   text-decoration: none;
@@ -139,6 +123,7 @@ body {
 
 .footer-style li:nth-child(2) {
   text-decoration: underline;
+  color: var(--contact-grey);
 }
 
 .footer-contact:hover,
@@ -151,7 +136,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
-  color: var(--almost-black);
 }
 
 .td-content td {
@@ -160,27 +144,20 @@ body {
   color: var(--contact-grey);
 }
 
-.main-first-part-people {
+.main-team-member {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
 }
 
-.main-second-part-people {
+.main-team-position {
   font-size: 16px;
   line-height: 1.2;
   color: var(--contact-grey);
 }
+
 .non-italic-address {
   font-style: normal;
-  font-size: 14px;
-}
-
-.nav-links a {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
 }
 
 .nav-links a:hover,
@@ -191,14 +168,8 @@ body {
 }
 
 .buttons button:hover,
-.buttons button:focus,
-.buttons button:active {
+.buttons button:focus {
   background-color: var(--main-blue);
   color: var(--logo-white);
-  border: none;
-  letter-spacing: 0.03em;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
   outline: none;
 }
